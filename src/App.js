@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 
 function App() {
@@ -53,6 +53,7 @@ function App() {
     {screen === 2 && (
         <div className="screen">
           <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXdlZ28xbWt4amhmOTM3MG90M3JkbXdicHRlbXM0Y2s4OWNwbmxocyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gjHkRHSuHqu99y9Yjt/giphy.gif"
+          alt="ig"
           className="cute-gif"
           />
           <h1>Do you love me?💖</h1>
